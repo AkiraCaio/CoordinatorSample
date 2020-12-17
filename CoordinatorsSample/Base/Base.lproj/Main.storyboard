@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Base View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="CoordinatorsSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BaseViewController" id="BYZ-38-t0r" customClass="BaseViewController" customModule="CoordinatorsSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,6 @@
         <!--3-->
         <scene sceneID="dQ3-GA-vo4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxz-Da-kUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ViewController3" title="3" id="wuz-KF-rbJ" customClass="ViewController3" customModule="CoordinatorsSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bW-QF-AFo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -137,6 +136,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxz-Da-kUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2780" y="-352"/>
         </scene>
@@ -197,7 +197,6 @@
         <!--6-->
         <scene sceneID="VdF-uC-1uS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7UG-gb-3Gm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ViewController6" title="6" id="7eH-cn-wFK" customClass="ViewController6" customModule="CoordinatorsSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tbc-BN-jt9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -218,6 +217,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7UG-gb-3Gm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2781" y="301"/>
         </scene>

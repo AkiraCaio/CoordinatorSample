@@ -1,18 +1,12 @@
-//
-//  ViewController.swift
-//  CoordinatorsSample
-//
-//  Created by Caio Vinicius Pinho Vasconcelos - CVS on 16/12/20.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
     weak var coordinator: PrimaryCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
     @IBAction func didTapFlow1(_ sender: UIButton) {

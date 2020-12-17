@@ -26,7 +26,7 @@ final class PrimaryCoordinator: NSObject, ParentCoordinator  {
         navigationController?.delegate = self
         
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let vc = storyBoard.instantiateViewController(withIdentifier: "BaseViewController") as! BaseViewController
         vc.coordinator = self
         
         currentViewController = vc
