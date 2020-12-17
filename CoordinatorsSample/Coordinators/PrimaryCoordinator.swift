@@ -44,6 +44,7 @@ extension PrimaryCoordinator: PrimaryCoordinatorDelegate {
         child.start()
     }
     
+    //TODO: Try to implement the second flow
     func watsToFlow2() {
         
     }
@@ -55,6 +56,7 @@ extension PrimaryCoordinator: PrimaryCoordinatorDelegate {
 }
 
 extension PrimaryCoordinator: UINavigationControllerDelegate {
+    //TODO: Try to implement the second flow
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else {
             return

@@ -1,10 +1,3 @@
-//
-//  ViewController1.swift
-//  CoordinatorsSample
-//
-//  Created by Caio Vinicius Pinho Vasconcelos - CVS on 16/12/20.
-//
-
 import UIKit
 
 class ViewController1: UIViewController {
