@@ -1,6 +1,6 @@
 # CoordinatorSample
 > Exemplo de uso do Coordinators Pattern.
-
+aaaa
 Para ajudar a compreender melhor o Coordinators Pattern nesse projeto existem 2 fluxos e cada um deles e gerenciado por seu proprio coordinators e esses coordinator possuem um coordinator parente que é quem gerencia eles.
 
 ## Instalação
